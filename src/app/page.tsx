@@ -17,7 +17,7 @@ export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className={roboto.className}>
+    <div className={`${roboto.className} bg-white`}>
       <header className="flex justify-between p-5 px-16">
         <div className="hidden md:flex">
           <p>Phone Number: 956 742 455 678</p>
