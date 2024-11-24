@@ -88,7 +88,7 @@ export default function Home() {
           </button>
         </div>
       </nav>
-      <hr className="border-2 border-gray-800 my-3 md:hidden " />
+      <hr className="border-2 border-gray-800 my-5 md:hidden " />
       <main>
         <section
           id="home"
