@@ -31,7 +31,7 @@ export default function Home() {
           <FaLinkedin className="m-1" size={20} />
         </div>
       </header>
-      <nav className="flex justify-around py-1  md:p-6 items-center">
+      <nav className="flex mx-2 md:mx-0 justify-around md:justify-around py-1 md:p-6 items-center">
         <div>
           <Image src="/logoweb.png" width={131} height={41} alt="Logo" />
         </div>
@@ -88,7 +88,7 @@ export default function Home() {
           </button>
         </div>
       </nav>
-      <hr className="border-2 border-gray-800 my-5 md:hidden " />
+      <hr className="border-2 border-gray-800 my-6 md:hidden " />
       <main>
         <section
           id="home"
